@@ -1,2 +1,2 @@
-# attendance-cart-generator
-Takes a json list of users that attended a meeting along with timestamp then crreate a visual barchart
+# internal-node-chart
+This project is responsible for generating charts for daily and weekly attendance report in SnapSuite Teams meeting
