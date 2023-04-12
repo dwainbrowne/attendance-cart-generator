@@ -45,8 +45,8 @@ function formatOutputJson(inputJson) {
             // Get the value of the current property (key)
             const attended = inputJson.attendance[key] === "true" ? true : false;
 
-            // Calculate the datetime for the current record by subtracting 'counter' days from the current date
-            const datetime = currentDate.minus({ days: counter }).toISO();
+            // Calculate the date for the current record
+            const datetime = currentDate.toISO();
 
             // Add the formatted attendance object to the attendance array
             attendance.push({
@@ -64,6 +64,8 @@ function formatOutputJson(inputJson) {
     return {
         id: inputJson.id,
         meeting: inputJson.meeting,
-        attendance: attendance
+        attendance: attendance,
+        created: currentDate.toISO(),
+        displayCreated: currentDate.toLocaleString(DateTime.DATETIME_MED, { timeZone: "America/New_York" })   
     };
 }

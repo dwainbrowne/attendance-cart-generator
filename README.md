@@ -28,31 +28,38 @@ This project is responsible for generating charts for daily and weekly attendanc
   "attendance": [
     {
       "name": "DwainBrowne",
-      "datetime": "2023-04-12T00:14:48.138-04:00"
+      "datetime": "2023-04-12T05:29:52.299-04:00",
+      "attended": true
     },
     {
       "name": "JohnPerez",
-      "datetime": "2023-04-11T00:14:48.138-04:00"
+      "datetime": "2023-04-11T05:29:52.299-04:00",
+      "attended": true
     },
     {
       "name": "LeoDiaz",
-      "datetime": "2023-04-10T00:14:48.138-04:00"
+      "datetime": "2023-04-10T05:29:52.299-04:00",
+      "attended": false
     },
     {
       "name": "MarkBustria",
-      "datetime": "2023-04-09T00:14:48.138-04:00"
+      "datetime": "2023-04-09T05:29:52.299-04:00",
+      "attended": true
     },
     {
       "name": "ParmSingh",
-      "datetime": "2023-04-08T00:14:48.138-04:00"
+      "datetime": "2023-04-08T05:29:52.299-04:00",
+      "attended": true
     },
     {
       "name": "PavithraPackiyanathan",
-      "datetime": "2023-04-07T00:14:48.138-04:00"
+      "datetime": "2023-04-07T05:29:52.299-04:00",
+      "attended": true
     },
     {
       "name": "RedmondParez",
-      "datetime": "2023-04-06T00:14:48.138-04:00"
+      "datetime": "2023-04-06T05:29:52.299-04:00",
+      "attended": true
     }
   ]
 }
